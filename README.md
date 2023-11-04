@@ -1,4 +1,5 @@
 # My GitHub Yu-Gi-Oh Cards
+![Screen shot of the git YuGio](https://github.com/davidsd29/GitGit/assets/22005581/4f3691c2-67a2-4636-9f0d-d883af86da83)
 
 You might be thinking, "Nice and all, but what exactly am I looking at?" Well, this is my GitHub account with a custom twist! I showcase all my repositories through Yu-Gi-Oh cards.
 
