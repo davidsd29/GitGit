@@ -1,0 +1,33 @@
+
+ $colors: (
+     primary: #1d1d1d,
+     secondary: black,
+     tertiary: #08fdd8,
+     quaternary: #FFFFFF,
+     focus: #e0113e,
+     active: darkblue,
+     hover: #e60de6,
+     highlight: #4ca8cc,
+ );
+
+
+ $variables: (
+     repo-count: 7,
+ );
+
+ @property --caroY {
+     syntax: '<angle>';
+     inherits: true;
+     initial-value: 0deg;
+ }
+
+ @font-face {
+     font-family: Audiowide;
+     src: url(../font/Audiowide-Regular.ttf) format('opentype');
+ }
+ 
+ // Bootstrap breakpoints
+ $breakpoint-sm: 576px;
+ $breakpoint-md: 768px;
+ $breakpoint-lg: 992px;
+ $breakpoint-xl: 1200px;
