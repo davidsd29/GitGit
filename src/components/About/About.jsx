@@ -4,7 +4,7 @@ import styles from './about.module.scss';
 const About = () => {
 	return (
 		<section id="about" className={styles.about}>
-			<h2>About</h2>
+			<h2>Explanation</h2>
 
 			<div>
 				<article>
@@ -15,7 +15,7 @@ const About = () => {
 
 					<div>
 						<p>David Dankwah</p>
-						<p>23 years</p>
+						<p>24 years</p>
 					</div>
 
 					<p>

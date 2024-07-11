@@ -3,7 +3,7 @@ import MainContent from "./Main/MainContent";
 import Carousel from "./Carousel/Carousel";
 import ReadMe from "./ReadMe/ReadMe";
 import About from "./About/About";
-import Hero from "./Hero/Hero";
+import {Hero} from "./Hero/Hero";
 import WordsBol from "./WordsBol/Bol";
 import Loader from "./Loader/Loader";
 import Scanner from "./Scanner/Scanner";

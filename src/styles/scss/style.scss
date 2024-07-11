@@ -1,0 +1,33 @@
+@import './helpers/global.scss';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Audiowide, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    max-width: 80em;
+    color: color(quaternary);
+    color-scheme: light dark;
+    background-color: color(secondary);
+    perspective: 1000px;
+}
+
+@import '../../components/About/about.module.scss';
+@import '../../components/Card/card.module.scss';
+@import '../../components/Carousel/carousel.module.scss';
+@import '../../components/Carousel/animation.module.scss';
+@import '../../components/Details/sideLink.module.scss';
+@import '../../components/Hero/hero.module.scss';
+@import '../../components/Loader/loader.module.scss';
+@import '../../components/Main/mainContent.module.scss';
+@import '../../components/ReadMe/readMe.module.scss';
+@import '../../components/Scanner/scanner.module.scss';
+@import '../../components/WordsBol/bol.module.scss';

@@ -1,4 +1,4 @@
-@import '../../styles/global';
+@import '../../styles/scss/helpers/global.scss';
 
 .repository {
     height: 60em;
@@ -9,9 +9,9 @@
 }
 
 .carouselContainer {
-    margin: 8% auto;
+    margin: 7% auto;
     width: 13.1em;
-    height: 3.1em;
+    height: 1.1em;
     position: relative;
     perspective: 62.5em;
 

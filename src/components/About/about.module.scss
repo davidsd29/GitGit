@@ -1,59 +1,62 @@
-@import '../../styles/global';
-
+@import '../../styles/scss/helpers/global.scss';
 .about {
-    width: 100%;
-    margin-bottom: 0;
-    cursor: context-menu;
-    scroll-margin: 2em;
+	width: 100%;
+	margin-bottom: 0;
+	cursor: context-menu;
+	scroll-margin: 2em;
 
-    h2 {
-        margin-bottom: 2em;
-    }
+	h2 {
+		margin-bottom: 2em;
+	}
 
-    p {
-        line-height: 1.5em;
+	p {
+		line-height: 1.5em;
 
-        span {
-            font-style: italic;
-            color: red;
-        }
-    }
+		span {
+			font-style: italic;
+			color: red;
+		}
+	}
 
-    >div {
-        display: grid;
-        place-items: center;
+	> div {
+		display: grid;
+		place-items: center;
 
-        article {
-            padding: 0 2em;
-            max-width: 80%;
-        }
+		article {
+			padding: 0 1em;
 
-        div {
-            display: flex;
-            justify-content: space-between;
+			@include respond-to(up-to-sm) {
+				padding: 0 2em;
+				max-width: 80%;
+			}
+		}
 
-            &:last-of-type {
-                margin-bottom: 2em;
-            }
-        }
-    }
+		div {
+			display: flex;
+			justify-content: space-between;
 
-    footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 2em;
-        color: color(tertiary);
-        border-bottom: 1em solid color(tertiary);
+			&:last-of-type {
+				margin-bottom: 2em;
+			}
+		}
+	}
 
-        a {
-            color: inherit;
-            cursor: pointer;
+	footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 2em;
+		color: color(tertiary);
+		border-bottom: 1em solid color(tertiary);
 
-            &:hover {
-                color: color(hover);
-            }
-        }
-    }
+		a {
+			color: inherit;
+			cursor: pointer;
+
+			&:hover {
+				color: color(hover);
+			}
+		}
+	}
 }

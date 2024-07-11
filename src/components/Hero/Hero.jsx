@@ -6,16 +6,8 @@ import Typed from 'typed.js';
 const Hero = () => {
 	const title = useRef(null);
 	useEffect(() => {
-		const typed = new Typed(title.current, {
-			strings: ['david', 'creative Developer', 'designer', 'awesome!'],
-			loop: false,
-			typeSpeed: 100,
-			backSpeed: 150,
-			startDelay: 300,
-			smartBackspace: true,
-			showCursor: false,
-			backDelay: 150,
-		});
+
+		textAnimation(title, 'david', 'creative Developer', 'designer', 'awesome!');
 	}, []);
 
 	return (
@@ -28,9 +20,26 @@ const Hero = () => {
 					Contact me
 				</a>
 			</section>
-			<SideLink text="Click" link="#about" />
+			<SideLink text="Click" link="#github-repos" />
 		</header>
 	);
 };
 
-export default Hero;
+const textAnimation = (title, name, string2, string3, string4 ) => {
+
+		
+	const typed = new Typed(title.current, {
+			strings: [name, string2, string3, string4, name],
+			loop: false,
+			typeSpeed: 100,
+			backSpeed: 150,
+			startDelay: 300,
+			smartBackspace: true,
+			showCursor: false,
+			backDelay: 150,
+		});
+};
+export {
+	Hero,
+	textAnimation
+};

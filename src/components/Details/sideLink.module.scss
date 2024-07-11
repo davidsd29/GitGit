@@ -1,4 +1,4 @@
-@import '../../styles/global';
+@import '../../styles/scss/helpers/global.scss';
 
 .clickMe {
     position: absolute;
@@ -10,6 +10,10 @@
     text-align: center;
     margin-top: 3em;
     margin-bottom: 7em;
+
+    &.second {
+        bottom: calc(0vh + 13em) !important;
+    }
 
 
     &:hover {
